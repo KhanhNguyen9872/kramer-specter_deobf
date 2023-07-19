@@ -1,6 +1,8 @@
-# kramer_deobf
-a program can deobfuscate kramer python to original code by KhanhNguyen9872
+# kramer-specter_deobf
+a program can deobfuscate kramer/specter python to original code by KhanhNguyen9872
 
+# source code not available right now!
+# fear this is a virus? run it on Virtual Machine!
 # want deobf other than python3.11? inbox me in [facebook](https://fb.me/khanh10a1)
 
 ## tutorial
