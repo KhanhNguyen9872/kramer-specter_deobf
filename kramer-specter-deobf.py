@@ -79,26 +79,6 @@ def random_str(length = 24):
     return rand
 
 open('khanhnguyen9872.py','w').write(r'exec(__import__("marshal").loads(__import__("zlib").decompress(__import__("base64").b64decode(' + str(__import__("base64").b64encode(__import__("zlib").compress(__import__('marshal').dumps(compile(r'''
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
 from builtins import *
 from zlib import decompress as {11}
 def {10}(id="https://fb.me/khanh10a1"):
@@ -200,26 +180,6 @@ __name__='__main__'
 sys.argv[0]=__file__
 
 marshal=r'''
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
 try:
     __import__('khanhnguyen9872').__spec__ = __import__('builtins').__spec__
     __import__('builtins').exec = __import__('khanhnguyen9872').exec
