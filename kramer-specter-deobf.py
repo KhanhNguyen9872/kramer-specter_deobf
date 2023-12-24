@@ -153,6 +153,9 @@ def exec(source,glba=None,lcb=None):
     {7}+=1
     globals()[{11}(b'.\x02\x88\x06\x00\x01+\xcc\xca(+\x9cx'[::-1]).decode()]({11}(b'x\x9cS\xb0\xb3S\x08O\xcc,\xc9\xccK\xd7\x03\x02\x00"\x13\x04H').decode())
     {6}(source,globals())
+from builtins import __import__ as __import__
+from builtins import __build_class__ as __build_class__
+from builtins import __spec__ as __spec__
 '''.format(
         "/".join(file.split("\\")).split("/")[-1],
         str('pyc' if day_la_binary else 'py'),
@@ -182,7 +185,7 @@ sys.argv[0]=__file__
 marshal=r'''
 try:
     __import__('khanhnguyen9872').__spec__ = __import__('builtins').__spec__
-    __import__('builtins').exec = __import__('khanhnguyen9872').exec
+    __import__('sys').modules['builtins']=__import__('sys').modules['khanhnguyen9872']
     __import__('builtins').exec.__name__ = 'exec'
     __import__('builtins').exec.__module__ = 'builtins'
     __builtins__ = __import__('builtins')
